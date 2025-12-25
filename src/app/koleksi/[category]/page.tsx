@@ -101,7 +101,7 @@ export default function CategoryPage() {
 
                 <div className="flex flex-wrap gap-4">
                   <a
-                    href="https://wa.me/6281234567890?text=Halo, saya tertarik dengan produk kategori " + category.name
+                    href={`https://wa.me/6281234567890?text=Halo, saya tertarik dengan produk kategori ${category.name}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center px-5 py-2.5 bg-gold text-accent font-semibold rounded-lg hover:bg-gold/90 transition-colors"
